@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+        <form action="form.php"  method="post" style="text-align: center;">
+            <br><br>
+            <select name="type">
+                <option>Выберите тип доставка</option>
+                <option value="fast">Быстрая доставка</option>
+                <option value="slow">Медленная доставка</option>
+            </select><br><br>
+            <input type="text" name="sourceKladr" placeholder="откуда везем"><br><br>
+            <input type="text" name="targetKladr" placeholder="куда везем"><br><br>
+            <input type="number" name="weight" placeholder="вес отправления в кг"><br><br>
+            <input type="submit">
+        </form>
+</body>
+</html>
